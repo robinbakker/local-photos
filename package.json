@@ -1,0 +1,19 @@
+{
+	"name": "local-photos",
+	"version": "0.0.2",
+	"description": "Browsing local photo files",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start": "wmr",
+		"build": "wmr build --prerender",
+		"serve": "wmr serve --http2"
+	},
+	"devDependencies": {
+		"wmr": "^3.8.0",
+		"rollup": "^3.8.1",
+		"workbox-recipes": "^6.5.4",
+		"workbox-routing": "^6.5.4",
+		"workbox-strategies": "^6.5.4"
+	}
+}

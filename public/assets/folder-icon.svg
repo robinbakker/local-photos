@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="a">
+      <path d="M0 0h512v512H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <linearGradient id="b" x1=".664" y1="1.167" x2=".151" y2=".227" gradientTransform="matrix(456 0 0 456 28 28)" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#040049"/>
+      <stop offset="42.083%" stop-color="#4e005e"/>
+      <stop offset="99.167%" stop-color="#02728e"/>
+    </linearGradient>
+    <circle vector-effect="non-scaling-stroke" cx="256" cy="256" r="228" fill="url(#b)"/>
+    <path d="M284.701 172.649h85.037c11.964 0 20.825 8.861 20.825 20.825v10.412l-135.361 109.33-118.596 49.251c-4.061-6.248-6.352-15.171-6.352-23.22V152.658c0-11.962 9.697-21.658 21.658-21.658h69.502a31.86 31.86 0 0 1 22.47 9.267l25.542 26.01c4.06 4.03 9.558 6.372 15.275 6.372Z" fill="#FFB02E"/>
+    <path d="M400.049 203.886H222.778a38.32 38.32 0 0 0-36.058 25.396c-47.803 137.079-43.857 127.229-45.064 128.77a5.706 5.706 0 0 1-4.717 2.603 3.644 3.644 0 0 1-1.895-.562 39.388 39.388 0 0 0 37.328 20.824h186.923a21.166 21.166 0 0 0 20.189-15.129l41.254-133.642a21.721 21.721 0 0 0-20.689-28.26Z" fill="#FCD53F"/>
+  </g>
+</svg>
