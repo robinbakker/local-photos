@@ -49,6 +49,7 @@ export default function ImageList() {
 	const onClickOpenDir = async () => {
 		const dirHandle = await window.showDirectoryPicker({
 			mode: 'read',
+			startIn: 'pictures',
 		});
 		const promises = [];
 		const newImageList = [];
@@ -166,9 +167,19 @@ export default function ImageList() {
 				computer. Just click the folder to browse for a local folder. Then you
 				can view photos one-by-one or run as slide show.
 				<br />
+				Please note: Only on Chromium desktop browsers right now.
+				<br />
 				Created by{' '}
 				<a href="https://robinbakker.nl" target="_blank" rel="noopener">
 					robinbakker.nl
+				</a>{' '}
+				- source at{' '}
+				<a
+					href="https://github.com/robinbakker/local-photos"
+					target="_blank"
+					rel="noopener"
+				>
+					Github
 				</a>
 			</p>
 			{!!imageList.length && (
